@@ -14,9 +14,16 @@
   ],
   "description": "An opinionated template for create-react-app using atomic design, typescript and redux",
   "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Vanluren/cra-template-vanluren.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vanluren/cra-template-vanluren/issues"
   },
   "license": "MIT",
   "dependencies": {
@@ -25,16 +32,14 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-scripts": "3.4.4"
+    "react-scripts": "3.4.4",
+    "@types/node": "^12.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
