@@ -1,0 +1,51 @@
+{
+  "name": "cra-template-vanluren",
+  "version": "1.0.0",
+  "private": false,
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "redux",
+    "react-redux",
+    "typescript",
+    "atomic design",
+    "Brad Frost"
+  ],
+  "description": "An opinionated template for create-react-app using atomic design, typescript and redux",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vanluren/cra-template-vanluren.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "3.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
