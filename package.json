@@ -26,9 +26,6 @@
     "url": "https://github.com/Vanluren/cra-template-vanluren/issues"
   },
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
